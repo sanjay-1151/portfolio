@@ -1,7 +1,18 @@
+import construction from "../src/assets/bonbon-programmer-coding-on-laptop.png";
+
 function App() {
   return (
-    <div className="App" style={{ fontSize: "25px" }}>
-      Sanjayb.co Website is under construction
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
+      <img src={construction} alt="under construction" />
+      <div className="App" style={{ fontSize: "25px" }}>
+        Website is under construction
+      </div>
     </div>
   );
 }
